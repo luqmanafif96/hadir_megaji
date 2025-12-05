@@ -1,0 +1,19 @@
+{
+  "name": "hadir-mengaji",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "bun run server",
+    "start": "bun run server",
+    "build": "vite build",
+    "preview": "vite preview --port 5173"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.7.10",
+    "@vitejs/plugin-react": "^5.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "vite": "^7.2.6"
+  }
+}
