@@ -3,7 +3,8 @@ import path from "path";
 
 const ROOT = process.cwd();
 // const DATA_DIR = process.env.DATA_DIR || path.join(ROOT, "data");
-const DATA_DIR = process.env.DATA_DIR || "/var/data";
+// const DATA_DIR = process.env.DATA_DIR || "/var/data";
+const DATA_DIR = path.join(ROOT, "data");
 const USERS_FILE = path.join(DATA_DIR, "users.json");
 const ATTEND_FILE = path.join(DATA_DIR, "attendance.json");
 const DIST_DIR = path.join(ROOT, "dist");
