@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "bun run server",
-    "start": "bun run server",
+    "dev:frontend": "vite",
+    "dev:backend": "bun run server.js",
     "build": "vite build",
+    "start": "bun run server.js",
     "preview": "vite preview --port 5173"
   },
   "devDependencies": {

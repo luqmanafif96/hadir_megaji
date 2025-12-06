@@ -12,16 +12,16 @@ export default function App() {
       <header className="topbar">
         <div className="brand">HadirMengaji</div>
         <nav>
-          <Link to="/">Daftar</Link>
-          <Link to="/hadir">Ambil Kehadiran</Link>
+          <Link to="/">Kehadiran</Link>
+          <Link to="/daftar">Daftar</Link>
           <Link to="/admin">Admin</Link>
         </nav>
       </header>
 
       <main className="main-area">
         <Routes>
-          <Route path="/" element={<Signup />} />
-          <Route path="/hadir" element={<Attendance />} />
+          <Route path="/" element={<Attendance />} />
+          <Route path="/daftar" element={<Signup />} />
           <Route path="/notfound" element={<NotFound />} />
           <Route path="/admin-login" element={<AdminLogin />} />
           <Route path="/admin" element={<Admin />} />
