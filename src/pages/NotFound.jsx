@@ -10,7 +10,7 @@ export default function NotFound(){
         Sila daftar dahulu untuk ambil kehadiran kelas mengaji.
       </p>
 
-      <Link to="/" className="button btn-orange" style={{marginTop:20}}>Daftar Sekarang</Link>
+      <Link to="/daftar" className="button btn-orange" style={{marginTop:20}}>Daftar Sekarang</Link>
     </div>
   );
 }
